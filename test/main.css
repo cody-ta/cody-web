@@ -1,0 +1,9 @@
+.wrap {
+  position: fixed;
+  inset: 0;
+  background: red;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+/*# sourceMappingURL=main.css.map */
