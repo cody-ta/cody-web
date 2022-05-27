@@ -1,3 +1,3 @@
 # cody-web
 
-hahaha
+See http://cody.gd/
