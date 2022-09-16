@@ -1,12 +1,12 @@
 html,
 body {
-	padding: 0;
-	margin: 0;
-	font-family: "Inter", sans-serif;
-	line-height: 1.5;
-	letter-spacing: 0.02rem;
-	-webkit-font-smoothing: antialiased;
-	text-rendering: geometricPrecision;
+  padding: 0;
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  line-height: 1.5;
+  letter-spacing: 0.02rem;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: geometricPrecision;
 }
 
 p,
@@ -16,8 +16,8 @@ h3,
 h4,
 h5,
 h6 {
-	margin: 0;
-	padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 h1,
@@ -26,61 +26,61 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: "IBM Plex Mono";
-	font-weight: 600;
-	font-size: 16px;
-	text-transform: uppercase;
-	letter-spacing: 0rem;
-	margin-bottom: 0.25rem;
+  font-family: "IBM Plex Mono";
+  font-weight: 600;
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 0rem;
+  margin-bottom: 0.25rem;
 }
 
 ul,
 ol,
 li {
-	list-style: none;
-	padding: 0;
-	margin: 0;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 li {
-	& + li {
-		// margin-top: 0.125rem;
-	}
+  & + li {
+    // margin-top: 0.125rem;
+  }
 }
 
 p {
-	line-height: 1.5;
-	font-size: 16px;
+  line-height: 1.5;
+  font-size: 16px;
 
-	// text-indent: 1.5rem;
+  // text-indent: 1.5rem;
 
-	& + & {
-		margin-top: 0.5rem;
-	}
+  & + & {
+    margin-top: 0.5rem;
+  }
 }
 
 body {
-	padding: 4rem;
+  padding: 4rem;
 }
 
 main {
-	// background: #000;
+  // background: #000;
 }
 
 .container {
-	max-width: 960px;
-	display: grid;
-	grid-template-columns: 160px 1fr;
-	gap: 2rem;
+  max-width: 960px;
+  display: grid;
+  grid-template-columns: 160px 1fr;
+  gap: 2rem;
 }
 
 .header-text {
-	font-size: 2rem;
-	margin-bottom: 2rem;
+  font-size: 2rem;
+  margin-bottom: 2rem;
 }
 
 .info-block {
-	& + & {
-		margin-top: 2rem;
-	}
+  & + & {
+    margin-top: 2rem;
+  }
 }
